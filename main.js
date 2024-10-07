@@ -26,7 +26,7 @@ const checkWeather = async () => {
 
     } catch (error) {
         console.error('Error fetching weather data:', error);
-        alert('Error fetching weather data. Please check the city name and try again.');
+        
     }
 };
 checkWeather();
